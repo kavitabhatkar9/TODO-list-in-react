@@ -1,8 +1,31 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## TODO lists
+Each To-Do in the list consist of To-Do Label and To-Do Priority.
+• User should also be able to perform the CRUD operations over the ToDo List.
+• Keyboard accessible to do list. User should be able to use the next and previous arrow to
+switch between the To-Do list.
+• User should be able to select the multiple To-Dos and able to delete the To-Dos using delete
+key.
+• Inline Editing of To-Do Item should be supported. User should be able to double click on the
+To-Do list item to perform the editing of the existing To-Do Item.
+
+## Architecture
+There are 3 components other than root component. Header, AddTodoForm, TodoLists and TodoList.TodoList is the main container which has Header, AddTodoForm, TodoLists as its children components Header consists of the header of the todo list app. AddTodoForm consists of the form to add items in the todo list which takes Priority and List Name. TodoLists lsits all todo items sorted with Priority. 
+* User can navigate and switch between todo lists using Back and Next arrow keys. 
+* User can delete a to do list using Delete Key. 
+* User can select todo lists using checkboxes next to to do list and can delete them using "Delete Selected" action.
+
+## Enhancements that can be done with more time
+
+1. Select all button to select all Todo items in one go. This can be user friendly.
+2. Drag and Drop can be implemented so that user can change the Priorities in less clicks than now
+3. Todo itmes can have description, relevant attachments, multiple sections to evaluate.
+4. Import and Export can be given to import/export todos to/from external file.
 
 ## Available Scripts
 
 In the project directory, you can run:
+1) npm run start - to start the local server
 
 ### `npm start`
 
