@@ -1,0 +1,82 @@
+@import "../scss/main.scss";
+
+.header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.to-do-list-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.todo-form {
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.item-active {
+  background-color: #a6d4fc;
+  transform: scale(1.01);
+  box-shadow: 3px 3px 2px 5px #a6d4fc;
+}
+
+.item-detail {
+  width: 600px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.item-name {
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.list-action {
+  flex: 0.1;
+}
+
+.empty-list {
+  height: 200px;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #a6d4fc;
+  flex-direction: column;
+}
+
+.empty-list-text {
+  font-size: 18px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  margin: 10px 0;
+  border-bottom: 1px solid blue;
+}
+
+.checkbox-2x {
+  transform: scale(1.5);
+}
